@@ -19,9 +19,9 @@ export function Contact() {
   return (
     <Section
       id="contact"
-      eyebrow="07 — Contact"
+      eyebrow="06 — Contact"
       title="Let’s talk about what you’re building"
-      description="I welcome conversations about executive and advisory roles, board positions, speaking engagements, and complex technology challenges."
+      description="I welcome conversations about product leadership roles, consulting engagements, UX and web performance challenges, and new product ideas."
     >
       <div className="grid gap-10 lg:grid-cols-[1fr_1.5fr]">
         <div className="flex flex-col gap-6">

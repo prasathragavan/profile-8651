@@ -3,7 +3,7 @@ import { Section } from './section'
 
 export function About() {
   return (
-    <Section id="about" eyebrow="01 — About Me" title="Building technology organizations that endure">
+    <Section id="about" eyebrow="01 — About Me" title="Building products people enjoy using">
       <div className="grid gap-12 md:grid-cols-[220px_1fr] md:gap-12">
         <div aria-hidden="true" />
         <div className="grid gap-12 lg:grid-cols-[1.4fr_1fr]">

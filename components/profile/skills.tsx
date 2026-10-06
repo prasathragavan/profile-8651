@@ -6,7 +6,7 @@ export function Skills() {
     <Section
       id="skills"
       eyebrow="03 — Skills & Tech Stack"
-      title="Depth across strategy, architecture, and execution"
+      title="Depth across product, design, and engineering"
     >
       <div className="grid gap-12 lg:grid-cols-[1fr_1.6fr]">
         <div className="rounded-xl border border-border bg-card p-8">

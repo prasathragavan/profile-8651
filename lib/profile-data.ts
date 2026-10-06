@@ -1,239 +1,270 @@
+const portfolioBase = 'https://prasathragavan.github.io/projects/'
+const portfolioFile = (file: string) => `${portfolioBase}${encodeURIComponent(file)}`
+
 export const profile = {
-  name: 'Jonathan A. Reyes',
-  initials: 'JR',
-  title: 'Chief Technology Officer & Principal Software Architect',
-  location: 'San Francisco, California',
-  availability: 'Open to board, advisory & executive roles',
-  bio: 'Technology executive with over two decades of experience building resilient platforms, scaling engineering organizations from 12 to 600+, and translating complex business strategy into systems that serve millions of people every day.',
-  email: 'jonathan@reyes.dev',
-  phone: '+1 (415) 555-0142',
-  website: 'reyes.dev',
-  linkedin: 'linkedin.com/in/jonathanreyes',
-  github: 'github.com/jreyes',
+  name: 'Guru Prasath Ragavendran',
+  initials: 'GR',
+  title: 'Product Manager & UX / Front-End Technology Leader',
+  location: 'Chennai, Tamil Nadu, India',
+  availability: 'Open to product leadership & consulting engagements',
+  bio: 'Product-minded technology leader with over two decades of hands-on experience across eCommerce and online payments — from re-designing PayPal.com to leading digital banking products at BNP Paribas. Passionate about iterating on the best ideas to build engaging products.',
+  email: 'rguruprasath@gmail.com',
+  phone: '+91 98407 44159',
+  website: 'prasathragavan.github.io',
+  linkedin: 'linkedin.com/in/prasathragavan',
+  github: 'github.com/prasathragavan',
   stats: [
-    { value: '22+', label: 'Years of experience' },
-    { value: '600+', label: 'Engineers led' },
-    { value: '45', label: 'Products shipped' },
-    { value: '$1.2B', label: 'Revenue enabled' },
+    { value: '24+', label: 'Years of experience' },
+    { value: '9', label: 'Organizations' },
+    { value: '6,000+', label: 'PayPal pages optimized' },
+    { value: '20%', label: 'Revenue uplift delivered' },
   ],
 }
 
 export const about = {
   paragraphs: [
-    'I am a hands-on technology leader who believes the best architecture is the one your team can understand, operate, and evolve. Across fintech, healthcare, and enterprise SaaS, I have led platform modernizations, cloud migrations, and the creation of engineering cultures that consistently ship with quality.',
-    'My work sits at the intersection of strategy and execution. I partner closely with CEOs and boards to define technology roadmaps, while staying close enough to the code to review architecture decisions, mentor principal engineers, and remain accountable for outcomes.',
+    'In addition to strong management skills, I bring more than two decades of hands-on experience across a wide range of environments, with deep working knowledge of eCommerce and online payments. I have spent much of my career at the intersection of product, design, and engineering — at PayPal, Verizon, BNP Paribas and as an independent consultant.',
+    'I am a strong believer in innovation and a conscientious person who pays attention to detail. I completed the Product Management certification program from Duke CE / UpGrad, and today I help clients go from a raw idea to a researched, prototyped, and shipped product.',
   ],
   principles: [
     {
-      title: 'Clarity over cleverness',
-      description: 'Simple, well-documented systems outlast brilliant but brittle ones.',
+      title: 'Innovation first',
+      description: 'Question the default. The best products come from a willingness to try something new.',
     },
     {
-      title: 'People build platforms',
-      description: 'Invest in leaders, and the technology follows. Hiring is the highest-leverage work I do.',
+      title: 'Details make the experience',
+      description: 'Performance, accessibility, and consistency are the small things users feel the most.',
     },
     {
-      title: 'Measure what matters',
-      description: 'Reliability, delivery speed, and customer impact — tracked openly and reviewed often.',
+      title: 'Iterate toward engagement',
+      description: 'Research, prototype, measure, and refine — feedback prioritized by business and customer impact.',
     },
   ],
 }
 
 export const story = [
   {
-    period: '2019 — Present',
-    role: 'Chief Technology Officer',
-    company: 'Meridian Financial Group',
+    period: 'Jun 2016 — Present',
+    role: 'Independent IT Specialist / Consultant',
+    company: 'Self-employed',
     description:
-      'Lead a 600-person global engineering, data, and security organization. Directed the migration of a 20-year-old core banking platform to a cloud-native architecture with zero customer-facing downtime, cutting infrastructure costs by 38%.',
+      'Design and development of web applications based on industry best practices. Conduct UX research and wireframing, shape new feature ideas and validate feasibility, analyze user paths and business events, and lead projects end-to-end across cross-functional teams.',
   },
   {
-    period: '2013 — 2019',
-    role: 'VP of Engineering',
-    company: 'Northwind Health Systems',
+    period: 'Oct 2014 — May 2016',
+    role: 'Project Lead',
+    company: 'BNP Paribas India Solutions, Chennai',
     description:
-      'Built the engineering function from 40 to 220 people. Delivered a HIPAA-compliant interoperability platform now used by 1,400 hospitals, and established the company’s first SRE and platform engineering practices.',
+      'Led a product team of nine to define and track release sprints. Drove multiple internet-facing applications with high-impact features that increased revenue by 20%, and led a multi-platform hybrid app for iOS and Android on IBM MobileFirst.',
   },
   {
-    period: '2008 — 2013',
-    role: 'Director of Software Architecture',
-    company: 'Atlas Commerce',
+    period: 'May 2013 — Aug 2014',
+    role: 'Technical Manager',
+    company: 'Tech Mahindra (Client: Verizon Data Services India), Hyderabad',
     description:
-      'Owned the technical architecture for a marketplace processing $3B in annual transactions. Led the transition from a monolith to service-oriented design and scaled peak throughput 15x through two record holiday seasons.',
+      'Managed a team of 10 building on Ruby on Rails, Python, jQuery and Bootstrap. Led the integration of over-the-air device data into a web-based medical platform connecting physicians with patients, and defined UI development standards.',
   },
   {
-    period: '2004 — 2008',
-    role: 'Senior Software Engineer',
-    company: 'Brightline Labs',
+    period: 'Jul 2009 — Nov 2012',
+    role: 'User Interface Engineer / Technical Lead',
+    company: 'PayPal India, Chennai',
     description:
-      'Early engineer at a logistics startup acquired by a Fortune 100 company. Designed the routing engine and real-time tracking services that became the foundation of the acquiring company’s fleet platform.',
+      'Led the SiteSpeed optimization of 35+ PayPal homepages with Akamai, built an internal tool to monitor web performance geographically, launched tech-talk programs averaging 100+ developers, and helped define web standards and accessibility guidelines.',
+  },
+  {
+    period: 'Aug 2008 — Jun 2009',
+    role: 'Associate Projects / Technical Lead',
+    company: 'Computer Sciences Corporation, Chennai',
+    description:
+      'Improved response time by 40% and UI consistency across 6,000+ pages of paypal.com. Refactored 500+ CSS and 200+ JS files and owned offshore delivery from kick-off to Go-Live.',
+  },
+  {
+    period: 'Jul 2006 — Aug 2008',
+    role: 'Associate Projects / Web Developer',
+    company: 'Covansys India, Chennai',
+    description:
+      'Led the site-wide re-design of PayPal with a new data-driven approach that drove more sign-ups, and led a team of 12 web developers focused on consumer experiences and products.',
+  },
+  {
+    period: 'Aug 2005 — Jun 2006',
+    role: 'Web Developer',
+    company: 'Xerago E-Biz India, Chennai',
+    description:
+      'Led a team of four building table-less HTML/CSS layouts and drove product templates and digital assets for clients including Citibank and Globus.',
+  },
+  {
+    period: 'Aug 2004 — Jul 2005',
+    role: 'Web Developer',
+    company: 'Protechsoft Systems, Chennai',
+    description:
+      'Lead developer for the US Child Support System and CMS-based sites; designed templates, brochures and Flash product demos.',
+  },
+  {
+    period: 'Aug 2002 — Feb 2004',
+    role: 'Web Designer / Developer',
+    company: 'Sify India, Chennai',
+    description:
+      'Built dynamic pages for e-Market services (Seekandsource.com, SatyamPlastics.com, Apnawebsite.com) and produced weekly MIS and site-activity reports.',
   },
 ]
 
 export const skillGroups = [
   {
-    category: 'Leadership & Strategy',
+    category: 'Product Management',
     skills: [
-      'Technology Strategy',
-      'Org Design & Scaling',
-      'Board Reporting',
-      'M&A Due Diligence',
-      'Budget Ownership',
-      'Executive Hiring',
+      'Product Strategy',
+      'Market Research',
+      'Competitive Analysis',
+      'Epics & User Stories',
+      'Product Analytics',
+      'Agile / Scrum',
+      'Jira',
     ],
   },
   {
-    category: 'Architecture',
+    category: 'UX & Design',
     skills: [
-      'Distributed Systems',
-      'Event-Driven Design',
-      'Domain-Driven Design',
-      'Microservices',
-      'API Platforms',
-      'Security by Design',
+      'User Experience',
+      'UX Research',
+      'Journey Mapping',
+      'Wireframing',
+      'Prototyping',
+      'Sketch',
+      'Accessibility',
     ],
   },
   {
-    category: 'Languages & Frameworks',
-    skills: ['TypeScript', 'Go', 'Java', 'Python', 'Rust', 'React', 'Next.js', 'Spring Boot'],
+    category: 'Engineering',
+    skills: [
+      'JavaScript',
+      'HTML5',
+      'CSS3',
+      'jQuery',
+      'Bootstrap',
+      'Ruby on Rails',
+      'Python',
+      'IBM MobileFirst',
+      'Hybrid Mobile Apps',
+    ],
   },
   {
-    category: 'Cloud & Data',
-    skills: [
-      'AWS',
-      'Google Cloud',
-      'Kubernetes',
-      'Terraform',
-      'PostgreSQL',
-      'Kafka',
-      'Snowflake',
-      'ML Platforms',
-    ],
+    category: 'Growth & Performance',
+    skills: ['SEO', 'Omniture Analytics', 'Digital Marketing', 'Web Performance', 'Akamai', 'Gomez', 'Keynote'],
   },
 ]
 
 export const expertise = [
-  { name: 'Platform Architecture', level: 98 },
-  { name: 'Engineering Leadership', level: 96 },
-  { name: 'Cloud Infrastructure', level: 92 },
-  { name: 'Data & AI Strategy', level: 88 },
-  { name: 'Security & Compliance', level: 85 },
+  { name: 'Front-End Engineering', level: 95 },
+  { name: 'User Experience', level: 92 },
+  { name: 'Web Performance', level: 90 },
+  { name: 'Team Leadership', level: 90 },
+  { name: 'Product Management', level: 85 },
 ]
 
 export const projects = [
   {
-    title: 'Core Banking Modernization',
-    organization: 'Meridian Financial Group',
-    year: '2020 — 2023',
+    title: 'PayPal Homepage SiteSpeed Program',
+    organization: 'PayPal India',
+    year: '2009 — 2012',
     description:
-      'Re-architected a legacy mainframe ledger into event-sourced services on Kubernetes, serving 9 million accounts with 99.995% availability.',
-    impact: '38% lower infrastructure cost',
-    tags: ['Go', 'Kafka', 'Kubernetes', 'PostgreSQL'],
+      'Led a massive effort to revamp 35+ PayPal homepages for speed, working with vendors including Akamai to improve user experience and revenue while reducing server costs.',
+    impact: '35+ homepages optimized',
+    tags: ['Web Performance', 'Akamai', 'JavaScript', 'CSS'],
   },
   {
-    title: 'Clinical Interoperability Platform',
-    organization: 'Northwind Health Systems',
-    year: '2015 — 2018',
+    title: 'Hybrid Digital Banking App',
+    organization: 'BNP Paribas',
+    year: '2014 — 2016',
     description:
-      'FHIR-based data exchange network connecting hospitals, labs, and insurers, processing 200M+ clinical messages per month.',
-    impact: 'Adopted by 1,400 hospitals',
-    tags: ['Java', 'FHIR', 'AWS', 'HL7'],
+      'Internet-facing applications and a multi-platform hybrid app for iOS and Android that delighted high-value customers with a more sophisticated digital experience.',
+    impact: '20% increase in revenue',
+    tags: ['IBM MobileFirst', 'iOS', 'Android', 'Jira'],
   },
   {
-    title: 'Real-Time Fraud Detection',
-    organization: 'Meridian Financial Group',
-    year: '2021 — 2022',
+    title: 'paypal.com UI Consistency & Speed',
+    organization: 'Computer Sciences Corporation',
+    year: '2008 — 2009',
     description:
-      'Streaming ML pipeline scoring every transaction in under 40ms, combining rules, graph features, and gradient-boosted models.',
-    impact: '$84M in prevented losses annually',
-    tags: ['Python', 'Flink', 'Feature Store', 'MLOps'],
+      'Improved response time and usability across 6,000+ pages of paypal.com, including refactoring 500+ CSS and 200+ JavaScript files.',
+    impact: '40% faster response time',
+    tags: ['CSS', 'JavaScript', 'Usability', 'Refactoring'],
   },
   {
-    title: 'Global Marketplace Checkout',
-    organization: 'Atlas Commerce',
-    year: '2010 — 2012',
+    title: 'Connected Medical Platform',
+    organization: 'Tech Mahindra · Verizon',
+    year: '2013 — 2014',
     description:
-      'Multi-currency, multi-region checkout and payments orchestration supporting 34 payment providers across 60 countries.',
-    impact: '15x peak throughput',
-    tags: ['Java', 'Redis', 'Payments', 'SOA'],
+      'Integrated data from over-the-air devices into a web-based medical platform connecting physicians with patients; built the initial prototype and UI standards.',
+    impact: 'Cross-functional team of 10 led',
+    tags: ['Ruby on Rails', 'Python', 'jQuery', 'Bootstrap'],
+  },
+]
+
+export const caseStudies = [
+  { title: 'Market Research & Competitive Analysis', summary: 'Meru Cabs', href: portfolioFile('ca.pdf') },
+  { title: 'Conducting Survey', summary: 'Furniture rental space', href: portfolioFile('Survey_submission_file.docx-2.pdf') },
+  { title: 'Product Artifacts', summary: 'Co-Living case study', href: portfolioFile('Case+Study+Submission+-+Co-Living+(1).pdf') },
+  { title: 'Design Fundamentals', summary: 'User journey map & UX improvement', href: portfolioFile('UX Assignment.pdf') },
+  { title: 'Wireframe & Prototype', summary: 'To-do list app', href: portfolioFile('Wireframe_Prototype_Guru_prasath.pdf') },
+  { title: 'Sketch', summary: 'To-do list sketch & user feedback', href: portfolioFile('Sketch_template_Guru_Prasath.pdf') },
+  { title: 'Industry Project — Part 1', summary: 'Zivame', href: portfolioFile('Industry+Case+Study+-+Zivame.pdf') },
+  { title: 'Industry Project — Part 2', summary: 'Zivame', href: portfolioFile('Industry+project+-+Part+2.pdf') },
+  { title: 'Metrics', summary: 'SaaS startup metrics tracking', href: portfolioFile('PM_Product_Analytics_Metrics_GuruPrasath_Ragavendran.pdf') },
+  { title: 'Analytics Case Study', summary: 'RedBus', href: portfolioFile('Analytics_Case_Study_submission_Guru_Prasath_Ragavendran.pdf') },
+  { title: 'Agile Approach', summary: 'Zomato', href: 'https://medium.com/@prasathraghavendran/zomato-agile-approach-891d55f367b1' },
+  { title: 'Epics & User Stories', summary: 'Netflix', href: portfolioFile('Userstory_Acceptance_Criteria_Guru_Prasath.xlsx') },
+  {
+    title: 'Product Adoption Lifecycle',
+    summary: 'Music streaming services in India',
+    href: 'https://medium.com/@prasathraghavendran/product-adoption-lifecycle-for-music-streaming-services-in-india-447100c1c231',
   },
 ]
 
 export const education = [
   {
-    degree: 'Executive Program in Strategic Leadership',
-    school: 'Stanford Graduate School of Business',
-    period: '2017',
-    note: 'Focus on scaling organizations and technology governance.',
+    degree: 'Product Management Certification Program',
+    school: 'Duke CE / UpGrad India',
+    period: 'Nov 2019 — May 2020',
+    note: 'Completed with 89%. Market research, UX, analytics, agile delivery and industry case studies.',
   },
   {
-    degree: 'M.S. Computer Science',
-    school: 'Carnegie Mellon University',
-    period: '2002 — 2004',
-    note: 'Specialization in distributed systems. Thesis on fault-tolerant consensus protocols.',
+    degree: 'Bachelor of Electronic Science (B.E.S)',
+    school: 'University of Madras',
+    period: '1999 — 2002',
+    note: 'Undergraduate degree in electronic science.',
   },
   {
-    degree: 'B.S. Computer Engineering',
-    school: 'University of California, Berkeley',
-    period: '1998 — 2002',
-    note: 'Graduated with Highest Honors. Dean’s List all semesters.',
+    degree: 'Higher Secondary Education (H.S.C)',
+    school: 'New Prince Matriculation Higher Secondary School',
+    period: '1998 — 1999',
+    note: 'Higher secondary certificate.',
+  },
+  {
+    degree: 'Secondary School Leaving Certificate (S.S.L.C)',
+    school: 'Bharathi Matriculation Higher Secondary School',
+    period: '1996 — 1997',
+    note: 'Secondary school certificate.',
   },
 ]
 
 export const certifications = [
-  { name: 'AWS Certified Solutions Architect — Professional', issuer: 'Amazon Web Services', year: '2023' },
-  { name: 'Google Cloud Professional Cloud Architect', issuer: 'Google Cloud', year: '2022' },
-  { name: 'Certified Kubernetes Administrator (CKA)', issuer: 'Cloud Native Computing Foundation', year: '2021' },
-  { name: 'CISSP — Certified Information Systems Security Professional', issuer: 'ISC2', year: '2019' },
-  { name: 'TOGAF 9 Certified Enterprise Architect', issuer: 'The Open Group', year: '2016' },
+  { name: 'Product Management Certification (89%)', issuer: 'Duke Corporate Education / UpGrad', year: '2020' },
 ]
 
 export const awards = [
   {
-    title: 'CTO of the Year — Financial Services',
-    issuer: 'Global Technology Leadership Awards',
-    year: '2024',
+    title: 'Technology Leader Award',
+    issuer: 'PayPal India — one of 12 technology leaders of the year',
+    year: '2009',
   },
   {
-    title: 'Top 50 Technology Executives',
-    issuer: 'Forbes Technology Council',
-    year: '2022',
-  },
-  {
-    title: 'Innovation in Healthcare IT',
-    issuer: 'HIMSS Excellence Awards',
-    year: '2018',
-  },
-  {
-    title: 'Distinguished Alumni Award',
-    issuer: 'Carnegie Mellon School of Computer Science',
-    year: '2016',
+    title: 'Super Star Award',
+    issuer: 'Covansys India — for the site-wide PayPal redesign',
+    year: '2008',
   },
 ]
 
-export const recommendations = [
-  {
-    quote:
-      'Jonathan is the rare technology leader who can hold a room of board members and, an hour later, whiteboard a consensus algorithm with our principal engineers. He transformed how we build software.',
-    name: 'Margaret Chen',
-    role: 'Chief Executive Officer, Meridian Financial Group',
-    relationship: 'Reported directly to Margaret',
-  },
-  {
-    quote:
-      'Under Jonathan’s leadership our engineering organization quadrupled in size while our delivery velocity and quality both improved. His calm under pressure is legendary.',
-    name: 'David Okafor',
-    role: 'Former President, Northwind Health Systems',
-    relationship: 'Worked together for 6 years',
-  },
-  {
-    quote:
-      'He hired me as a junior engineer and mentored me all the way to VP. Jonathan invests in people with a generosity I try to emulate every day.',
-    name: 'Priya Raman',
-    role: 'VP of Platform Engineering, Atlas Commerce',
-    relationship: 'Mentee and direct report',
-  },
-]
+export const recommendations: { quote: string; name: string; role: string; relationship: string }[] = []
 
 export const navItems = [
   { href: '#about', label: 'About' },
@@ -241,6 +272,5 @@ export const navItems = [
   { href: '#skills', label: 'Skills' },
   { href: '#projects', label: 'Projects' },
   { href: '#credentials', label: 'Credentials' },
-  { href: '#recommendations', label: 'Recommendations' },
   { href: '#contact', label: 'Contact' },
 ]

@@ -1,5 +1,5 @@
-import { TrendingUp } from 'lucide-react'
-import { projects } from '@/lib/profile-data'
+import { ArrowUpRight, TrendingUp } from 'lucide-react'
+import { caseStudies, projects } from '@/lib/profile-data'
 import { Section } from './section'
 
 export function Projects() {
@@ -7,8 +7,8 @@ export function Projects() {
     <Section
       id="projects"
       eyebrow="04 — Selected Projects"
-      title="Platforms that moved the business"
-      description="A selection of initiatives I led end-to-end — from the first architecture review to sustained operation at scale."
+      title="Work that moved the business"
+      description="Highlights from leading web, mobile and payments initiatives — plus my product management portfolio."
       className="border-y border-border bg-card"
     >
       <div className="grid gap-6 md:grid-cols-2">
@@ -38,6 +38,35 @@ export function Projects() {
             </ul>
           </article>
         ))}
+      </div>
+
+      <div className="mt-16">
+        <div className="flex flex-col gap-2 md:flex-row md:items-end md:justify-between">
+          <h3 className="font-serif text-2xl font-semibold text-foreground">Product Management Portfolio</h3>
+          <p className="text-sm text-muted-foreground">Case studies from the Duke CE / UpGrad program</p>
+        </div>
+        <ul className="mt-6 grid gap-px overflow-hidden rounded-xl border border-border bg-border sm:grid-cols-2 lg:grid-cols-3">
+          {caseStudies.map((study) => (
+            <li key={study.href} className="bg-background">
+              <a
+                href={study.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex h-full items-start justify-between gap-4 p-5 transition-colors hover:bg-muted"
+              >
+                <span>
+                  <span className="block font-semibold text-foreground group-hover:text-primary">{study.title}</span>
+                  <span className="mt-1 block text-sm text-muted-foreground">{study.summary}</span>
+                </span>
+                <ArrowUpRight
+                  className="size-4 shrink-0 text-muted-foreground transition-colors group-hover:text-primary"
+                  aria-hidden="true"
+                />
+                <span className="sr-only">(opens in a new tab)</span>
+              </a>
+            </li>
+          ))}
+        </ul>
       </div>
     </Section>
   )

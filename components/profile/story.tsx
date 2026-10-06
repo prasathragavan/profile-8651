@@ -7,7 +7,7 @@ export function Story() {
       id="story"
       eyebrow="02 — My Story"
       title="Two decades, one constant: shipping what matters"
-      description="From an early engineer at a logistics startup to leading a global technology organization — each chapter taught me something about people, systems, and scale."
+      description="From web designer at Sify to technical lead at PayPal and project lead at BNP Paribas — each chapter taught me something about people, products, and craft."
       className="border-y border-border bg-card"
     >
       <ol className="flex flex-col">

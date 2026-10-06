@@ -11,9 +11,9 @@ const sourceSerif = Source_Serif_4({
 })
 
 export const metadata: Metadata = {
-  title: 'Jonathan A. Reyes — CTO & Principal Software Architect',
+  title: 'Guru Prasath Ragavendran — Product Manager & UX / Front-End Technology Leader',
   description:
-    'Technology executive with 22+ years of experience leading engineering organizations, platform modernization, and cloud architecture across fintech, healthcare, and enterprise SaaS.',
+    'Product and technology leader with 24+ years of experience across eCommerce and online payments — PayPal, Verizon, BNP Paribas — specializing in UX, web performance, and product management.',
   generator: 'v0.app',
   icons: {
     icon: [

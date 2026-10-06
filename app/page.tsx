@@ -8,6 +8,7 @@ import { SiteFooter } from '@/components/profile/site-footer'
 import { SiteHeader } from '@/components/profile/site-header'
 import { Skills } from '@/components/profile/skills'
 import { Story } from '@/components/profile/story'
+import { recommendations } from '@/lib/profile-data'
 
 export default function Page() {
   return (
@@ -20,7 +21,7 @@ export default function Page() {
         <Skills />
         <Projects />
         <Credentials />
-        <Recommendations />
+        {recommendations.length > 0 && <Recommendations />}
         <Contact />
       </main>
       <SiteFooter />
