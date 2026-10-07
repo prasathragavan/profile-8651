@@ -11,10 +11,43 @@ const sourceSerif = Source_Serif_4({
 })
 
 export const metadata: Metadata = {
-  title: 'Jonathan A. Reyes — CTO & Principal Software Architect',
+  title: 'Guru Prasath Ragavendran — AI & Technology Consultant',
   description:
-    'Technology executive with 22+ years of experience leading engineering organizations, platform modernization, and cloud architecture across fintech, healthcare, and enterprise SaaS.',
+    'Independent AI & technology consultant with 22+ years of hands-on delivery experience. Specialising in Agentic AI implementation, LLM-powered product development, and digital transformation advisory. Certified in Agentic AI & Applications — IITM Pravartak (IIT Madras), 2026.',
   generator: 'v0.app',
+  keywords: [
+    'AI Consultant',
+    'Agentic AI',
+    'LangChain',
+    'LangGraph',
+    'OpenAI',
+    'Fractional CTO',
+    'Technology Consultant',
+    'Digital Transformation',
+    'Chennai',
+    'India',
+    'ChatPress.ai',
+    'WordPress Consultant',
+    'LLM Implementation',
+  ],
+  authors: [{ name: 'Guru Prasath Ragavendran', url: 'https://prasathragavan.github.io' }],
+  creator: 'Guru Prasath Ragavendran',
+  openGraph: {
+    type: 'website',
+    locale: 'en_IN',
+    url: 'https://profile-8651.vercel.app',
+    siteName: 'Guru Prasath Ragavendran',
+    title: 'Guru Prasath Ragavendran — AI & Technology Consultant',
+    description:
+      'Independent AI & technology consultant with 22+ years of hands-on delivery experience. Agentic AI specialist, Fractional CTO, and digital transformation advisor based in Chennai, India.',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Guru Prasath Ragavendran — AI & Technology Consultant',
+    description:
+      'Independent AI & technology consultant with 22+ years of hands-on delivery. Agentic AI specialist & Fractional CTO.',
+    creator: '@prasathragavan',
+  },
   icons: {
     icon: [
       {
@@ -30,12 +63,11 @@ export const metadata: Metadata = {
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
   },
+  apple: '/apple-icon.png',
 }
 
 export const viewport: Viewport = {
-  colorScheme: 'light',
   themeColor: '#fbfaf7',
 }
 
@@ -46,9 +78,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${sourceSerif.variable}`}>
-      <body className="antialiased">
+      <body>
         {children}
-        {process.env.NODE_ENV === 'production' && <Analytics />}
+        <Analytics />
       </body>
     </html>
   )
