@@ -73,7 +73,7 @@ export function Hero() {
         <div className="order-1 md:order-2">
           <div className="relative mx-auto aspect-square w-56 overflow-hidden rounded-2xl border border-border bg-muted shadow-sm md:w-full">
             <Image
-              src="/images/avatar.png"
+              src="/images/Profile_Pic.png"
               alt={`Portrait of ${profile.name}`}
               fill
               priority
