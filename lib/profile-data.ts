@@ -1,246 +1,228 @@
 export const profile = {
-  name: 'Jonathan A. Reyes',
-  initials: 'JR',
-  title: 'Chief Technology Officer & Principal Software Architect',
-  location: 'San Francisco, California',
-  availability: 'Open to board, advisory & executive roles',
-  bio: 'Technology executive with over two decades of experience building resilient platforms, scaling engineering organizations from 12 to 600+, and translating complex business strategy into systems that serve millions of people every day.',
-  email: 'jonathan@reyes.dev',
-  phone: '+1 (415) 555-0142',
-  website: 'reyes.dev',
-  linkedin: 'linkedin.com/in/jonathanreyes',
-  github: 'github.com/jreyes',
-  stats: [
-    { value: '22+', label: 'Years of experience' },
-    { value: '600+', label: 'Engineers led' },
-    { value: '45', label: 'Products shipped' },
-    { value: '$1.2B', label: 'Revenue enabled' },
-  ],
-}
+  name: "Guru Prasath Ragavendran",
+  title: "AI & Technology Consultant",
+  tagline: "Agentic AI Specialist · Fractional CTO · Digital Transformation Advisor",
+  location: "Chennai, India",
+  openTo: "Open to remote engagements & relocation",
+  email: "rguruprasath@gmail.com",
+  phone: "+91 98407 44159",
+  linkedin: "https://www.linkedin.com/in/prasathragavan/",
+  github: "https://github.com/prasathragavan",
+  twitter: "https://twitter.com/prasath",
+  portfolio: "https://prasathragavan.github.io",
+  summary:
+    "Independent technology consultant with 22+ years of hands-on delivery experience, specialising in Agentic AI implementation, LLM-powered product development, and digital transformation advisory. Certified in Agentic AI & Applications (IITM Pravartak — IIT Madras, 2026). Proven track record designing and shipping production AI systems using OpenAI, LangChain, LangGraph, and Cloudflare Workers. Combines deep technical execution with business-outcome thinking — advising clients from requirements to live deployment. Previously led high-impact engineering initiatives at PayPal, BNP Paribas, and Verizon.",
+};
 
-export const about = {
-  paragraphs: [
-    'I am a hands-on technology leader who believes the best architecture is the one your team can understand, operate, and evolve. Across fintech, healthcare, and enterprise SaaS, I have led platform modernizations, cloud migrations, and the creation of engineering cultures that consistently ship with quality.',
-    'My work sits at the intersection of strategy and execution. I partner closely with CEOs and boards to define technology roadmaps, while staying close enough to the code to review architecture decisions, mentor principal engineers, and remain accountable for outcomes.',
-  ],
-  principles: [
-    {
-      title: 'Clarity over cleverness',
-      description: 'Simple, well-documented systems outlast brilliant but brittle ones.',
-    },
-    {
-      title: 'People build platforms',
-      description: 'Invest in leaders, and the technology follows. Hiring is the highest-leverage work I do.',
-    },
-    {
-      title: 'Measure what matters',
-      description: 'Reliability, delivery speed, and customer impact — tracked openly and reviewed often.',
-    },
-  ],
-}
+export const skills = [
+  {
+    category: "Agentic AI & LLMs",
+    items: ["OpenAI", "LangChain", "LangGraph", "RAG pipelines", "Prompt engineering", "Evaluation frameworks", "Helicone", "TogetherAI"],
+  },
+  {
+    category: "AI Product Development",
+    items: ["End-to-end SaaS delivery", "Conversational design", "LLM observability", "ChatPress.ai"],
+  },
+  {
+    category: "Frontend & Web",
+    items: ["React", "TypeScript", "Next.js", "WordPress", "WCAG 2.0/2.1 Accessibility", "Web Performance (YSlow, WebPageTest, Browser APIs)"],
+  },
+  {
+    category: "Infrastructure & Platform",
+    items: ["Cloudflare Workers", "Supabase", "Vercel", "AWS (EC2, S3)", "CI/CD", "Figma"],
+  },
+  {
+    category: "Analytics & Automation",
+    items: ["Looker Studio", "Google Analytics", "GTM", "Selenium", "Helicone AI observability"],
+  },
+  {
+    category: "Client Advisory",
+    items: ["Requirements discovery", "Solution architecture", "CXO stakeholder management", "Technical due diligence", "Go/no-go recommendations"],
+  },
+];
 
-export const story = [
+export const experience = [
   {
-    period: '2019 — Present',
-    role: 'Chief Technology Officer',
-    company: 'Meridian Financial Group',
-    description:
-      'Lead a 600-person global engineering, data, and security organization. Directed the migration of a 20-year-old core banking platform to a cloud-native architecture with zero customer-facing downtime, cutting infrastructure costs by 38%.',
-  },
-  {
-    period: '2013 — 2019',
-    role: 'VP of Engineering',
-    company: 'Northwind Health Systems',
-    description:
-      'Built the engineering function from 40 to 220 people. Delivered a HIPAA-compliant interoperability platform now used by 1,400 hospitals, and established the company’s first SRE and platform engineering practices.',
-  },
-  {
-    period: '2008 — 2013',
-    role: 'Director of Software Architecture',
-    company: 'Atlas Commerce',
-    description:
-      'Owned the technical architecture for a marketplace processing $3B in annual transactions. Led the transition from a monolith to service-oriented design and scaled peak throughput 15x through two record holiday seasons.',
-  },
-  {
-    period: '2004 — 2008',
-    role: 'Senior Software Engineer',
-    company: 'Brightline Labs',
-    description:
-      'Early engineer at a logistics startup acquired by a Fortune 100 company. Designed the routing engine and real-time tracking services that became the foundation of the acquiring company’s fleet platform.',
-  },
-]
-
-export const skillGroups = [
-  {
-    category: 'Leadership & Strategy',
-    skills: [
-      'Technology Strategy',
-      'Org Design & Scaling',
-      'Board Reporting',
-      'M&A Due Diligence',
-      'Budget Ownership',
-      'Executive Hiring',
+    title: "Senior Technical Consultant",
+    company: "118Group",
+    companyUrl: "",
+    period: "2017 – Present",
+    location: "Remote (Chennai-based) · UK-based digital agency",
+    type: "consulting",
+    summary:
+      "Sole technical advisor on a long-term retained basis for a UK digital agency. Dual mandate: technical strategy for an AI SaaS product and operational governance across a 100+ site WordPress portfolio. Functions as Fractional CTO without permanent headcount.",
+    highlights: [
+      "Led technical due diligence and architecture evaluation for the acquisition of ChatPress.ai — go/no-go recommendation directly informed the company's acquisition decision.",
+      "Sole engineer on ChatPress.ai since acquisition: built and shipped ~25–30% of the remaining product using React, Cloudflare Workers, and Helicone for LLM observability; continue to own the live, revenue-generating product.",
+      "Sole technical lead managing infrastructure (servers, hosting, DNS, security) for 100+ client WordPress websites, down from a peak of 210 sites.",
+      "Used Browser Performance API to profile and diagnose latency in ChatPress.ai's chat interaction flow alongside Cloudflare and Helicone observability tooling.",
+      "Designed and delivered a real-time Excel-to-WordPress data sync solution (Google Sheets + JSON feed integration) that became the company's primary ongoing client engagement.",
+      "Use Figma extensively for design collaboration across ChatPress.ai and client WordPress projects; deliver using both Agile (Scrum) and Waterfall depending on client needs.",
     ],
   },
   {
-    category: 'Architecture',
-    skills: [
-      'Distributed Systems',
-      'Event-Driven Design',
-      'Domain-Driven Design',
-      'Microservices',
-      'API Platforms',
-      'Security by Design',
+    title: "Project Lead",
+    company: "BNP Paribas India Solutions",
+    companyUrl: "https://www.bnpparibas.co.in/",
+    period: "Oct 2014 – May 2016",
+    location: "Chennai",
+    type: "fulltime",
+    summary:
+      "Led a 9-person engineering sub-team delivering a multi-platform wealth management application for high-net-worth clients in a regulated banking environment.",
+    highlights: [
+      "Built on IBM MobileFirst and AngularJS; delivered for iOS, Android, iPad, and Desktop.",
+      "Grew the Chennai wealth management team from 22 to 80 through direct, hands-on technical hiring.",
+      "Delivered 5 successive product releases; coordinated cross-geography with Singapore-based leadership.",
+      "Balanced compliance constraints with delivery speed in a regulated banking environment.",
     ],
   },
   {
-    category: 'Languages & Frameworks',
-    skills: ['TypeScript', 'Go', 'Java', 'Python', 'Rust', 'React', 'Next.js', 'Spring Boot'],
-  },
-  {
-    category: 'Cloud & Data',
-    skills: [
-      'AWS',
-      'Google Cloud',
-      'Kubernetes',
-      'Terraform',
-      'PostgreSQL',
-      'Kafka',
-      'Snowflake',
-      'ML Platforms',
+    title: "Technical Manager",
+    company: "Tech Mahindra (Verizon account)",
+    companyUrl: "https://www.techmahindra.com/",
+    period: "May 2013 – Aug 2014",
+    location: "Hyderabad",
+    type: "fulltime",
+    summary:
+      "Led a 10-person cross-functional team delivering a confidential healthcare IoT platform, including continuous glucose monitoring (CGM) device integration.",
+    highlights: [
+      "Team composition: Python/Django, Ruby on Rails, QA, and UI engineers.",
+      "Coordinated delivery between the onsite India team and US-based design/product teams.",
+      "Led UI delivery for a Magento e-commerce platform launch, reporting directly to the client VP.",
     ],
   },
-]
+  {
+    title: "User Interface Engineer (Full-Time)",
+    company: "PayPal India",
+    companyUrl: "https://www.paypal.com/",
+    period: "Jul 2009 – Nov 2012",
+    location: "Chennai",
+    type: "fulltime",
+    summary:
+      "Member of PayPal's core UI Accessibility team. Built reusable WCAG-compliant component library adopted org-wide. Co-defined architectural migration from legacy XPT framework to Java ('Project Sparta').",
+    highlights: [
+      "Built a reusable WCAG 2.0/2.1-compliant UI component library adopted org-wide — an early design-system initiative.",
+      "Co-defined the architectural migration path from PayPal's legacy XML-based (XPT) framework to Java ('Project Sparta'); trained the broader UI developer organisation on the migration approach.",
+      "Adopted native Browser Performance APIs post-2010 to drive granular front-end optimisation.",
+      "Converted from contractor to full-time employee via a Build-Operate-Transfer agreement.",
+    ],
+  },
+  {
+    title: "Senior Software Engineer",
+    company: "Covansys → CSC (PayPal Program)",
+    companyUrl: "",
+    period: "Jun 2006 – Jun 2009",
+    location: "Chennai",
+    type: "fulltime",
+    summary:
+      "Sole technical code reviewer for a 130-developer India development centre. Directly hired ~80% of the team's growth from 40 to 130 engineers. Led a company-wide multilingual site redesign across every page of PayPal.com.",
+    highlights: [
+      "Reduced PayPal homepage load time from 11 seconds to 3.5 seconds using YSlow, WebPageTest, and custom JavaScript timing instrumentation.",
+      "Built performance-monitoring infrastructure across international offices; trained 150–200 developers on web performance best practices.",
+      "Directly hired ~80% of the India team's growth from 40 to 130 engineers; conducted 800–900 candidate interviews as final technical decision-maker.",
+      "Awarded the company's 'Superstar Award' for successful completion of the site-wide redesign project.",
+      "Represented the UI organisation on PayPal's monthly cross-functional Architecture Council.",
+    ],
+  },
+  {
+    title: "Web Designer / Developer",
+    company: "Xerago",
+    companyUrl: "https://www.xerago.com/",
+    period: "Jul 2005 – Jun 2006",
+    location: "Chennai",
+    type: "fulltime",
+    summary: "Delivered HTML prototyping and creative design for Citibank and Tibco. Built an interactive Flash/XML-based community platform for Globus retail group.",
+    highlights: [
+      "Clients included CitiBank (card, loan, banking pages) and Tibco (newsletters, campaigns).",
+      "Built early Web 2.0 front-end interaction patterns (AJAX, dynamic forms) for enterprise banking clients.",
+    ],
+  },
+  {
+    title: "Web Developer",
+    company: "ProTechSoft / Sify Ltd.",
+    companyUrl: "",
+    period: "Aug 2002 – Jul 2005",
+    location: "Chennai",
+    type: "fulltime",
+    summary: "Early career roles covering HTML/CSS prototyping, Flash animation, and high-volume B2B website delivery.",
+    highlights: [
+      "Delivered Photoshop-to-HTML/CSS prototyping and Flash animation for a U.S. government (Child Support) website.",
+      "Produced 30–60 templated business website builds per day for a pan-India B2B hosting platform at Sify.",
+    ],
+  },
+];
 
-export const expertise = [
-  { name: 'Platform Architecture', level: 98 },
-  { name: 'Engineering Leadership', level: 96 },
-  { name: 'Cloud Infrastructure', level: 92 },
-  { name: 'Data & AI Strategy', level: 88 },
-  { name: 'Security & Compliance', level: 85 },
-]
-
-export const projects = [
+export const certifications = [
   {
-    title: 'Core Banking Modernization',
-    organization: 'Meridian Financial Group',
-    year: '2020 — 2023',
-    description:
-      'Re-architected a legacy mainframe ledger into event-sourced services on Kubernetes, serving 9 million accounts with 99.995% availability.',
-    impact: '38% lower infrastructure cost',
-    tags: ['Go', 'Kafka', 'Kubernetes', 'PostgreSQL'],
+    title: "Professional Certificate Programme in Agentic AI and Applications",
+    issuer: "IITM Pravartak (IIT Madras)",
+    period: "Sep 2025 – May 2026",
+    highlight: true,
+    description: "Agentic systems, multi-agent orchestration, LangGraph, production LLM deployment",
   },
   {
-    title: 'Clinical Interoperability Platform',
-    organization: 'Northwind Health Systems',
-    year: '2015 — 2018',
-    description:
-      'FHIR-based data exchange network connecting hospitals, labs, and insurers, processing 200M+ clinical messages per month.',
-    impact: 'Adopted by 1,400 hospitals',
-    tags: ['Java', 'FHIR', 'AWS', 'HL7'],
+    title: "Product Management Certification",
+    issuer: "UpGrad in partnership with Duke University",
+    period: "Sep 2019 – Jul 2020",
+    highlight: false,
+    description: "Product strategy, roadmapping, go-to-market, user research",
   },
-  {
-    title: 'Real-Time Fraud Detection',
-    organization: 'Meridian Financial Group',
-    year: '2021 — 2022',
-    description:
-      'Streaming ML pipeline scoring every transaction in under 40ms, combining rules, graph features, and gradient-boosted models.',
-    impact: '$84M in prevented losses annually',
-    tags: ['Python', 'Flink', 'Feature Store', 'MLOps'],
-  },
-  {
-    title: 'Global Marketplace Checkout',
-    organization: 'Atlas Commerce',
-    year: '2010 — 2012',
-    description:
-      'Multi-currency, multi-region checkout and payments orchestration supporting 34 payment providers across 60 countries.',
-    impact: '15x peak throughput',
-    tags: ['Java', 'Redis', 'Payments', 'SOA'],
-  },
-]
+];
 
 export const education = [
   {
-    degree: 'Executive Program in Strategic Leadership',
-    school: 'Stanford Graduate School of Business',
-    period: '2017',
-    note: 'Focus on scaling organizations and technology governance.',
+    degree: "Bachelor of Electronic Science (B.E.S.)",
+    institution: "University of Madras",
+    year: "2002",
   },
-  {
-    degree: 'M.S. Computer Science',
-    school: 'Carnegie Mellon University',
-    period: '2002 — 2004',
-    note: 'Specialization in distributed systems. Thesis on fault-tolerant consensus protocols.',
-  },
-  {
-    degree: 'B.S. Computer Engineering',
-    school: 'University of California, Berkeley',
-    period: '1998 — 2002',
-    note: 'Graduated with Highest Honors. Dean’s List all semesters.',
-  },
-]
-
-export const certifications = [
-  { name: 'AWS Certified Solutions Architect — Professional', issuer: 'Amazon Web Services', year: '2023' },
-  { name: 'Google Cloud Professional Cloud Architect', issuer: 'Google Cloud', year: '2022' },
-  { name: 'Certified Kubernetes Administrator (CKA)', issuer: 'Cloud Native Computing Foundation', year: '2021' },
-  { name: 'CISSP — Certified Information Systems Security Professional', issuer: 'ISC2', year: '2019' },
-  { name: 'TOGAF 9 Certified Enterprise Architect', issuer: 'The Open Group', year: '2016' },
-]
+];
 
 export const awards = [
   {
-    title: 'CTO of the Year — Financial Services',
-    issuer: 'Global Technology Leadership Awards',
-    year: '2024',
+    title: "Technology Leader Award",
+    org: "PayPal India",
+    year: "2009",
+    description: "One of 12 technology leaders recognised for the year.",
   },
   {
-    title: 'Top 50 Technology Executives',
-    issuer: 'Forbes Technology Council',
-    year: '2022',
+    title: "Superstar Award",
+    org: "Covansys India",
+    year: "2008",
+    description: "For successful completion of the PayPal site-wide redesign project.",
   },
-  {
-    title: 'Innovation in Healthcare IT',
-    issuer: 'HIMSS Excellence Awards',
-    year: '2018',
-  },
-  {
-    title: 'Distinguished Alumni Award',
-    issuer: 'Carnegie Mellon School of Computer Science',
-    year: '2016',
-  },
-]
+];
 
-export const recommendations = [
+export const projects = [
   {
-    quote:
-      'Jonathan is the rare technology leader who can hold a room of board members and, an hour later, whiteboard a consensus algorithm with our principal engineers. He transformed how we build software.',
-    name: 'Margaret Chen',
-    role: 'Chief Executive Officer, Meridian Financial Group',
-    relationship: 'Reported directly to Margaret',
+    name: "ChatPress.ai",
+    description:
+      "AI chatbot SaaS for WordPress — built and shipped as the sole engineer post-acquisition. Production LLM pipelines using OpenAI + Cloudflare Workers, with Helicone for AI observability. Live, revenue-generating product.",
+    tags: ["React", "OpenAI", "Cloudflare Workers", "Helicone", "LLM", "SaaS"],
+    url: "https://chatpress.ai",
+    type: "consulting",
   },
   {
-    quote:
-      'Under Jonathan’s leadership our engineering organization quadrupled in size while our delivery velocity and quality both improved. His calm under pressure is legendary.',
-    name: 'David Okafor',
-    role: 'Former President, Northwind Health Systems',
-    relationship: 'Worked together for 6 years',
+    name: "PayPal SiteSpeed Initiative",
+    description:
+      "Led the global effort to optimise PayPal homepages — reduced load time from 11 seconds to 3.5 seconds across 35+ international homepage flows. Built performance-monitoring infrastructure adopted by 150–200 developers.",
+    tags: ["Web Performance", "YSlow", "WebPageTest", "JavaScript", "Akamai"],
+    url: "",
+    type: "enterprise",
   },
   {
-    quote:
-      'He hired me as a junior engineer and mentored me all the way to VP. Jonathan invests in people with a generosity I try to emulate every day.',
-    name: 'Priya Raman',
-    role: 'VP of Platform Engineering, Atlas Commerce',
-    relationship: 'Mentee and direct report',
+    name: "Excel-to-WordPress Data Sync",
+    description:
+      "Designed and delivered a real-time Google Sheets + JSON feed integration that syncs spreadsheet data directly into WordPress. Became the agency's flagship client solution and primary ongoing engagement.",
+    tags: ["WordPress", "Google Sheets", "JSON", "API Integration"],
+    url: "",
+    type: "consulting",
   },
-]
-
-export const navItems = [
-  { href: '#about', label: 'About' },
-  { href: '#story', label: 'Story' },
-  { href: '#skills', label: 'Skills' },
-  { href: '#projects', label: 'Projects' },
-  { href: '#credentials', label: 'Credentials' },
-  { href: '#recommendations', label: 'Recommendations' },
-  { href: '#contact', label: 'Contact' },
-]
+  {
+    name: "PayPal WCAG Component Library",
+    description:
+      "Built a reusable, WCAG 2.0/2.1-compliant UI component library adopted org-wide at PayPal — one of the company's early design-system initiatives predating the modern design-system era.",
+    tags: ["Accessibility", "WCAG 2.0/2.1", "Design System", "JavaScript"],
+    url: "",
+    type: "enterprise",
+  },
+];
